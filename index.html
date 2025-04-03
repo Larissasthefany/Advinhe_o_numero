@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Advinhe o Número</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <h1 id="title"></h1>
+    <h2></h2>
+
+    <input type="text" id="inputName" placeholder="Seu nome" />
+    <button id="start"></button>
+
+    <div id="container" style="display: none">
+      <p><strong id="feedback"></strong></p>
+
+      <input type="number" id="inputNumber" placeholder="Digite um número:" />
+      <button id="send"></button>
+
+      <p id="messageGuess"></p>
+      <button id="reboot" style="display: none"></button>
+    </div>
+  </body>
 </html>
