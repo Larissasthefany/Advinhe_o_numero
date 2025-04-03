@@ -10,16 +10,16 @@
     <h2></h2>
 
     <input type="text" id="inputName" placeholder="Seu nome" />
-    <button id="start"></button>
+    <button id="start" aria-label="Iniciar jogo"></button>
 
-    <div id="container" style="display: none">
+    <div id="container" class="hidden">
       <p><strong id="feedback"></strong></p>
 
       <input type="number" id="inputNumber" placeholder="Digite um número:" />
-      <button id="send"></button>
+      <button id="send" aria-label="Enviar palpite"></button>
 
       <p id="messageGuess"></p>
-      <button id="reboot" style="display: none"></button>
+      <button id="reboot" class="hidden" aria-label="Reiniciar jogo"></button>
     </div>
   </body>
 </html>
