@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css">
     <title>Advinhe o Número</title>
   </head>
   <body>
     <h1 id="title"></h1>
-    <h2></h2>
 
+    <p id="player"></p>
     <input type="text" id="inputName" placeholder="Seu nome" />
     <button id="start" aria-label="Iniciar jogo"></button>
 
@@ -19,7 +20,10 @@
       <button id="send" aria-label="Enviar palpite"></button>
 
       <p id="messageGuess"></p>
-      <button id="reboot" class="hidden" aria-label="Reiniciar jogo"></button>
+      <button id="root" class="hidden" aria-label="Reiniciar jogo"></button>
     </div>
+    
+    <script  type="module" src="./src/js/ui.js"></script>
+    <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>
