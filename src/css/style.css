@@ -3,3 +3,31 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #4e4d4a;
+  color: #2790b0;
+}
+
+main #title {
+  font-size: 2.9rem;
+  margin-bottom: 30px;
+}
+
+main #player{
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+main div.container-input{
+
+}
+
+
