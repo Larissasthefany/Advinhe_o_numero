@@ -47,3 +47,4 @@ btnSend.addEventListener("click", () => {
 });
 
 btnRoot.addEventListener("click", reiniciarJogo);
+
