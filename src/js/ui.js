@@ -30,4 +30,10 @@ export function reiniciarJogo() {
   message.style.display = "none";
   btnRoot.style.display = "none";
   feedback.style.display = "none";
+
+  inputName.value = "";
+  number.value = "";
+  feedback.innerText = "";
+  message.innerText = "";
+  message.classList.remove("error", "success");
 }
